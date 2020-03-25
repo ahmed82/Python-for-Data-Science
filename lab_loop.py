@@ -48,20 +48,3 @@ while(year != 1973):
 
 print("It took ", i ,"repetitions to get out of loop.")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
