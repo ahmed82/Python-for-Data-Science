@@ -1,0 +1,1 @@
+wget -O Example1.txt http://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/PY0101EN/labs/example1.txt 
