@@ -230,8 +230,15 @@ The vectors used for question 4 and 5 are perpendicular. As a result, the dot pr
 -->
 https://cognitiveclass.ai/blog/data-scientists-stand-out-by-sharing-your-notebooks
 """
+np.array([1,-1])*np.array([1,1])
+np.dot(np.array([1,-1]),np.array([1,1]))
 
-
-
-
+""" in vector bellow"""
+u=[1,0]
+v=[1,0]
+z=[]
+for n,m in zip(u,v):
+    z.append(n+m)
+z
+""" in numpy , one line only z=u+v"""
 
