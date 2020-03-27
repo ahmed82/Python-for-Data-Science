@@ -8,7 +8,14 @@ We can open a file object using the method write() to save the text file to a li
  To write the mode, argument must be set to write w. 
  Let’s write a file Example2.txt with the line: “This is line A”
 """
+#you will need the following library 
+#!pip install ibm_watson wget
+from ibm_watson import SpeechToTextV1 
+import json
+from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
+url_s2t = "https://stream.watsonplatform.net/speech-to-text/api"
+iam_apikey_s2t = ""
 #Consider the dataframe df, how would you find the element in the second-row and first column.
 #  df.ix[1,0] or df.iloc[1,0]
 import pandas as pd
